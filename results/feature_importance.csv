@@ -1,0 +1,9 @@
+feature,importance
+temperature_2m_c,0.2126760457413942
+soil_moisture_m3_m3,0.197368271929651
+precipitation_mm,0.1396830149671539
+precipitation_mm_lag1,0.1353932210317613
+soil_moisture_m3_m3_lag1,0.13336454968831687
+temperature_2m_c_lag1,0.11975594315914605
+month_cos,0.03235761643443274
+month_sin,0.029401337048143985

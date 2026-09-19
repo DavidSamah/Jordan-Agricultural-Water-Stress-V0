@@ -1,0 +1,107 @@
+{
+  "threshold_selected_on_validation": 0.25,
+  "validation": {
+    "persistence": {
+      "accuracy": 0.9166666666666666,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "confusion_matrix": [
+        [
+          9,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "climatology": {
+      "accuracy": 0.8333333333333334,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          10,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "roc_auc": 0.225
+    },
+    "random_forest": {
+      "accuracy": 0.25,
+      "precision": 0.18181818181818182,
+      "recall": 1.0,
+      "f1": 0.3076923076923077,
+      "confusion_matrix": [
+        [
+          1,
+          9
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "roc_auc": 0.14999999999999997
+    }
+  },
+  "test_2024": {
+    "persistence": {
+      "accuracy": 0.7272727272727273,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          8,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "climatology": {
+      "accuracy": 0.8181818181818182,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          9,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "roc_auc": 0.5555555555555556
+    },
+    "random_forest": {
+      "accuracy": 0.5454545454545454,
+      "precision": 0.2857142857142857,
+      "recall": 1.0,
+      "f1": 0.4444444444444444,
+      "confusion_matrix": [
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "roc_auc": 0.5555555555555556
+    }
+  }
+}

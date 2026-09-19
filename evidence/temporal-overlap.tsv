@@ -1,0 +1,6 @@
+DATASET	VARIABLE	START	END	SPATIAL	TEMPORAL
+GPM IMERG	Precipitation	1998	present	~10 km	30 min
+SMAP L4	Soil moisture	2015	present	9 km	3 hourly
+MODIS MOD13Q1	NDVI	2000	present	250 m	16 day
+MODIS MOD11A2	Land surface temperature	2000	present	1 km	8 day
+WaPOR v3	AETI	2018	present	100/300 m	10 day

@@ -1,0 +1,1 @@
+https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGDF.07/2018/01/3B-DAY.MS.MRG.3IMERG.20180101-S000000-E235959.V07B.nc4

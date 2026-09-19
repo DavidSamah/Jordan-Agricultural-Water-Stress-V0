@@ -1,0 +1,14 @@
+IMERG GES DISC retrieval paused.
+
+Verified:
+- GPM_3IMERGDF V07 product exists
+- granule URL is valid
+- request reaches Earthdata
+
+Current blocker:
+HTTP 401 Unauthorized during Earthdata/GES DISC authentication.
+
+Decision:
+Preserve IMERG as a later validation dataset.
+Use public CHIRPS v3 precipitation for Experiment V0
+so research can continue without an authentication dependency.

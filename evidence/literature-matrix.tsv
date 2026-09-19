@@ -1,0 +1,5 @@
+ID	YEAR	SCOPE	PROBLEM	METHOD	PREDICTIVE?	ML?	VALIDATION	RELATION_TO_H2
+S01	2023	Jordan+Syria	Agricultural drought monitoring	Multi-sensor RS + Random Forest indicator ranking	No clear forecast	Yes	SPI	Adjacent
+J1	2022	Jordan	Agricultural water management	Landsat 8 + Sentinel-2 + ET/IWC mapping	Long-term IWC forecast	No clear ML	SEBAL + ground data	Adjacent
+J2	2024	Northern Jordan	Agricultural drought mapping	Landsat-8 + MODIS + STI-FM	No	No clear ML	SPI	Adjacent
+J3	2023	Jordan	Drought prediction	SPI/SPEI + TBATS/ARIMA	Yes	No	SPI/SPEI	Adjacent

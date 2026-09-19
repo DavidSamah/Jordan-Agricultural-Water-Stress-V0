@@ -1,0 +1,7 @@
+FIELD	TYPE	MEANING
+date	date	Monthly observation period
+grid_id	string	Unique spatial cell
+latitude	float	Grid-cell latitude
+longitude	float	Grid-cell longitude
+precipitation_mm	float	Monthly accumulated precipitation
+source	string	Dataset provenance

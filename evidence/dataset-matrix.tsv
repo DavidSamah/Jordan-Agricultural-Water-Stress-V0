@@ -1,0 +1,6 @@
+VARIABLE	DATASET	SPATIAL_RESOLUTION	TEMPORAL_RESOLUTION	POTENTIAL_ROLE
+Precipitation	GPM IMERG	~10 km	30 min / daily	Atmospheric water input
+Soil moisture	SMAP	1 km or 9 km	daily / 3-hourly	Direct soil water condition
+Vegetation	MODIS MOD13Q1	250 m	16 days	Vegetation response
+Evapotranspiration	FAO WaPOR v3	100-300 m	10 days	Actual crop/water loss
+Land surface temperature	MODIS LST	TO_VERIFY	TO_VERIFY	Thermal stress
