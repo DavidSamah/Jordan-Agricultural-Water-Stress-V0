@@ -1,0 +1,10 @@
+VARIABLE	SOURCE	ROLE	STATUS
+precipitation	CHIRPS	water input	available
+soil_moisture	ERA5-Land	water storage	available
+air_temperature	ERA5-Land	atmospheric demand	available
+NDVI	MODIS/Sentinel-2	vegetation response	to acquire
+land_surface_temperature	MODIS	thermal stress	to acquire
+AETI	FAO WaPOR	actual crop water use	to acquire
+RET/ET0	FAO WaPOR or meteorology	atmospheric demand	to acquire
+crop_type	Sentinel-2/JVA/land-use maps	crop coefficient/context	to acquire
+irrigation_delivery	JVA/field records	ground-truth target	seek access
