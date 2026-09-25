@@ -1,0 +1,11 @@
+VARIABLE	SOURCE	ROLE	STATUS
+precipitation	CHIRPS v3	water input	available
+soil_moisture	ERA5-Land	water storage	available
+air_temperature	ERA5-Land	atmospheric demand	available
+NDVI	Sentinel-2	vegetation response	in progress
+land_surface_temperature	MODIS	thermal stress	to acquire
+AETI	FAO WaPOR	actual crop water use	verified
+RET/ET0	FAO WaPOR	atmospheric demand	verified
+crop_mask	ESA WorldCover 2021	agricultural spatial context	selected
+crop_type	Sentinel-2/JVA/land-use maps	crop coefficient/context	to acquire
+irrigation_delivery	JVA/field records	ground-truth target	seek access
