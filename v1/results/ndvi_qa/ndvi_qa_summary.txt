@@ -1,0 +1,15 @@
+Sentinel-2 Agricultural NDVI QA
+============================================================
+
+Observations: 486
+Date range: 2018-03-02 00:00:00 to 2024-12-30 00:00:00
+NDVI range: -0.027846 to 0.697775
+Median NDVI: 0.248691
+Invalid dates: 0
+Duplicate dates: 0
+Missing NDVI: 0
+Physical-range failures: 0
+Temporal outliers: 95
+Severe QA failures: 0
+Coverage < 0.10: 42
+Coverage < 0.25: 67

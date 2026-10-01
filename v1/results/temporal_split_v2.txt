@@ -1,0 +1,11 @@
+TEMPORAL SPLIT V2
+========================================================================
+
+TRAIN: 2018–2022
+VALIDATION: 2023
+TEST: 2024
+
+Forecast horizon: one dekad ahead
+Primary target: target_ndvi_t_plus_1
+
+Test period must not be used for model selection, feature selection, imputation fitting, or hyperparameter tuning.
