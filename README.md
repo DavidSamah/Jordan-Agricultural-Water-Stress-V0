@@ -1179,16 +1179,6 @@ Current V1 forecasting status:
 [✓] Frozen 2024 evaluation
 [✓] Vegetation-memory signal identified
 
-[ ] Formal lag-ablation study
-[ ] Rolling-origin validation
-[ ] Seasonal error decomposition
-[ ] Extreme-event validation
-[ ] Spatial robustness analysis
-[ ] Crop-specific interpretation
-[ ] Supervisor methodological review
-[ ] Final contribution definition
-[ ] Manuscript / funding framing
-[ ] Operational decision-support validation
 ```
 
 ---
