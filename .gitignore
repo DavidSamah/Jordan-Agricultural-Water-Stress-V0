@@ -6,3 +6,20 @@ data/era5land/raw/
 
 __pycache__/
 *.pyc
+
+# Debug / temporary artifacts
+debug_bundle/
+ndvi_error_bundle.tar.gz
+regression_dates.txt
+*.bak
+*.before_*
+*.pre_*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large raw/intermediate rasters
+v1/data/chirps_dekad/processed/rasters/
+v1/data/sentinel2/raw/
+v1/data/wapor_ret/processed/ret_dekad/

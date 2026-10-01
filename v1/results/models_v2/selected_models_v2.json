@@ -1,0 +1,54 @@
+{
+  "hydro_climate": {
+    "model": "hist_gradient_boosting",
+    "validation_mae": 0.030985273645655342,
+    "validation_rmse": 0.04927212237994203,
+    "features": [
+      "precipitation_mean_mm",
+      "soil_moisture_0_7cm_mean",
+      "soil_moisture_7_28cm_mean",
+      "soil_moisture_28_100cm_mean",
+      "temperature_2m_mean_c",
+      "agricultural_aeti_weighted_mm",
+      "ret_mean_mm_dekad",
+      "water_balance_ret_minus_rain",
+      "water_balance_aeti_minus_rain",
+      "aeti_ret_ratio",
+      "rainfall_sum_3dekad",
+      "rainfall_sum_6dekad",
+      "soil_moisture_0_7cm_mean_3dekad",
+      "aeti_mean_3dekad",
+      "ret_mean_3dekad",
+      "season_sin",
+      "season_cos"
+    ]
+  },
+  "state_aware": {
+    "model": "ridge",
+    "validation_mae": 0.022655048010401767,
+    "validation_rmse": 0.034488186559744345,
+    "features": [
+      "precipitation_mean_mm",
+      "soil_moisture_0_7cm_mean",
+      "soil_moisture_7_28cm_mean",
+      "soil_moisture_28_100cm_mean",
+      "temperature_2m_mean_c",
+      "agricultural_aeti_weighted_mm",
+      "ret_mean_mm_dekad",
+      "water_balance_ret_minus_rain",
+      "water_balance_aeti_minus_rain",
+      "aeti_ret_ratio",
+      "rainfall_sum_3dekad",
+      "rainfall_sum_6dekad",
+      "soil_moisture_0_7cm_mean_3dekad",
+      "aeti_mean_3dekad",
+      "ret_mean_3dekad",
+      "season_sin",
+      "season_cos",
+      "ndvi_t",
+      "ndvi_lag_1",
+      "ndvi_lag_2",
+      "ndvi_lag_3"
+    ]
+  }
+}
